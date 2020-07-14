@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Blackstone Bistro: Pizza-on-Demand</title>
+  <style>
+    body{background-color:#fee3c2; margin:0 10%; font-family: sans-serif;}
+    h1{text-align: center; color: #292929; font-family: serif; font-weight:normal;
+    text-transform: uppercase; border-bottom:1px solid #292929; margin-top: 30px;}
+    h2{ color: #436f25; font-family: serif; font-weight:normal;
+    text-transform: uppercase; margin-top: 15px;}
+    h3 {color: #292929; font-family: serif;}
+    h4 {color: #954002; font-size:1em}
+    .topnav
+    {overflow: hidden;background-color: #333;}
+    .topnav a
+    {float: left; color: #ffaa00; text-align: center; padding: 14px 16px; text-decoration: none;font-size: 17px;}
+    .topnav a:hover
+    {background-color: #f9c02b; color: black;}
+    .topnav a.active
+    {background-color: #dd633c; color:#ffaa00;}
+    footer {border-top:1px solid #292929; text-align:center; padding-top: 1em; }
+    footer img {width:40px; height:40px; margin-left:.5em; margin-right: .5em;}
+    .fsSubmitButton
+    {
+	    border-top: 2px solid #fef9f2;
+	    border-left: 2px solid #fef9f2;
+	    border-right: 2px solid #584731;
+	    border-bottom: 2px solid #584731;
+	    padding: 10px 20px !important;
+	    font-size: 14px !important;
+	    background-color: #436f25 !important;
+	    font-weight: bold;
+	    color: #ffffff;
+    }
+
+   ol, ul {
+   list-style-type: none;
+    }
+
+
+  </style>
+<!--- h2 {color: #292929; font-family: serif;} -->
+
+   <!---<style type="text/css">
+      ol, ul {
+     list-style-type: none;
+      }
+   </style>-->
+</head>
+
+<body>
+  <!--- Top Navigation Bar -->
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="recipes/recipes.html">Recipes</a>
+    <a href="news.html">News</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="reviews.html">Reviews</a>
+  </div>
+  <!--- Top Navigation Bar -->
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
+
+<fieldset>
+  <legend> <h3>Your Information </h3> </legend>
+    <ul>
+      <li> <label for="form-name"> Name: </label> <input type="text" name="customername" id="form-name"> </li>
+      <li> <label for="form-address"> Address: </label> <input type="text" name="address" id="form-address"> </li>
+      <li> <label for="form-phone"> Telephone Number: </label> <input type="text" name="telephone" id="form-phone"> </li>
+      <li> <label for="form-email"> Email: </label> <input type="text" name="email" id="form-email"> </li><br>
+      <li> <label for="form-instructions"> Delivery instructions: </label> <br> <textarea name="instructions" rows="4" cols="60" maxlength="400"
+        placeholder="No more than 400 characters, please. We just need instructions, not a novel." id="form-instructions"> </textarea> </li>
+    </ul>
+</fieldset>
+
+
+<h2>Design Your Dream Pizza:</h2>
+
+<fieldset>
+  <legend> <h3> Pizza specs  </h3> </legend>
+
+  <fieldset>
+    <legend> <h3> Crust <em>(Choose one)</em>:  </h3> </legend>
+      <ul>
+          <li> <label> <input type="radio" name="crust" value="white" > Classic white </label> </li>
+          <li> <label> <input type="radio" name="crust" value="multi"> Multigrain </label> </li>
+          <li> <label> <input type="radio" name="crust" value="stuffed"> Cheese-stuffed crust </label> </li>
+          <li> <label> <input type="radio" name="crust" value="nogluten"> Gluten-free </label> </li>
+      </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend> <h3> Toppings <em>(Choose as many as you want)</em>: </h3> </legend>
+
+      <ul>
+          <li> <label> <input type="checkbox" name="toppings[]" value="redsauce" checked > Red sauce </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="redsauce"> White sauce </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="mozzarella"> Mozzarella Cheese </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="peppers"> Peppers </label> </li>
+          <li> <label> <input type="checkbox" name="toppings[]" value="anchovies"> Anchovies </label> </li>
+      </ul>
+
+    </fieldset>
+    <fieldset>
+      <legend> <h3> Number </h3> </legend>
+      <p>How many pizzas:
+        <select name="pizzas" size="1">
+        <option> 1 </option>
+        <option> 2 </option>
+        <option> 3 </option>
+        <option> 4 </option>
+        <option> 5 </option>
+        <option> 6 </option>
+      </select> <p>
+    </fieldset> <br>
+    <input type="submit" class="fsSubmitButton" value= "Order my Pizza!" >
+    <input type="reset" class="fsSubmitButton" value="Reset the form">
+    <br>
+
+</fieldset>
+
+</form>
+
+<footer>
+  <p> Please visit our Social Media pages</p>
+  <p><img src="icons/twitter.svg" alt="twitter"><img src="icons/facebook.svg" alt="facebook"><img src="icons/instagram.svg" alt="instagram"></p>
+</footer>
+
+</body>
+
+</html>
