@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.hero-image {
+  background-image: url("images/restaurant-dark.jpg"); /* The image used */
+  background-color: #dedcd6; /* Used if the image is unavailable */
+  height: 350px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  opacity: 1;
+}
+body {
+  background-color: #dedcd6;
+  font-size: 100%;
+  margin:0 10%;
+  font-family: 'Merriweather', serif;
+}
+
+ /*
+comment
+ */
+ a {
+   color: sienna;
+ }
+ .logo{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .mainheadline{
+   text-align: center;
+   color: white;
+   font-family: 'Lora', serif;
+   font-weight:normal;
+   font-size: 3em;
+   text-transform: uppercase;
+ }
+h1{
+  text-align: center;
+  color: #292929;
+  font-family: 'Lora', serif;
+  font-weight:normal;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-bottom:1px solid #292929;
+  /*margin-top: 30px;*/
+}
+h2{
+  /* color: #436f25; */
+  color: sienna;
+  font-family: 'Lora', serif;
+  font-weight:normal;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+}
+h3 {
+  color: #b54b29;
+  font-family: 'Lora', serif;
+}
+h4 {
+  color: #b54b29;
+  font-size:1em
+}
+p {
+  margin-left: 1em;
+}
+p.small {
+  font-size: 0.4em;
+}
+dt{ /* definition term */
+  font-weight:bold;
+  margin-left: 1em;
+  text-transform: capitalize;
+  color: #292929;
+}
+dd{ /* definition term */
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  color: #3d3d3d;
+}
+li{ /* definition term */
+  line-height: 1.75em;
+}
+.ingredients{
+  color: sienna;
+  margin-left: 2em;
+}
+input, textarea { /* definition term */
+  border:0px solid #292929;
+  line-height: 1.5em;
+}
+
+.foodimages{
+  border-radius: 10%;
+  border:0px solid #292929;
+ }
+.lgfoodimages{
+   border-radius: 10%;
+   border:0px solid #292929;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  /*width: 50%;*/
+  }
+.price {
+  font-style: italic;
+  font-weight:bold;
+  color: sienna;
+}
+.newitem{
+  color: olive;
+}
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+.topnav a{
+  float: left;
+  color: #ffaa00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #f9c02b;
+  color: black;
+}
+.topnav a.active{
+  background-color: #dd633c;
+  color:#f9c02b;
+}
+
+.favs {
+  text-align: center;
+  padding: 0px;
+}
+.fsSubmitButton{
+  border-top: 2px solid #fef9f2;
+  border-left: 2px solid #fef9f2;
+  border-right: 2px solid #584731;
+  border-bottom: 2px solid #584731;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  background-color: #436f25 !important;
+  font-weight: bold;
+  color: #ffffff;
+}
+ol, ul {
+list-style-type: none;
+ }
+ table, td, th {
+   border-collapse: collapse;
+ }
+ td {
+   border-left: 0px solid #4a4949;
+   border-right: 0px solid #4a4949;
+   border-top: 0px solid #4a4949;
+   border-bottom: 0px solid #4a4949;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   vertical-align: top;
+
+ }
+footer {
+  border-top:1px solid #292929;
+  text-align:center;
+  padding-top: 1em;
+}
+footer img {
+  width:40px;
+  height:40px;
+  margin-left:.5em;
+  margin-right: .5em;
+}

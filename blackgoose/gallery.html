@@ -5,23 +5,12 @@
   <meta charset="utf-8">
   <title>The Black Goose Bistro Food Gallery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body{background-color:#fee3c2; margin:0 10%; font-family: sans-serif;}
-    h1{text-align: center; color: #292929; font-family: serif; font-weight:normal;
-    text-transform: uppercase; border-bottom:1px solid #292929; margin-top: 30px;}
-    h2{ color: #436f25; font-family: serif; font-weight:normal;
-    text-transform: uppercase; margin-top: 15px;}
-    h3 {color: #292929; font-family: serif;}
-    h4 {color: #954002; font-size:1em}
-    .topnav
-    {overflow: hidden;background-color: #333;}
-    .topnav a
-    {float: left; color: #ffaa00; text-align: center; padding: 14px 16px; text-decoration: none;font-size: 17px;}
-    .topnav a:hover
-    {background-color: #f9c02b; color: black;}
-    .topnav a.active
-    {background-color: #dd633c; color:#ffaa00;}
-  </style>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="blackgoose.css">
+
 </head>
 
 <body>
@@ -33,6 +22,7 @@
     <a href="news.html">News</a>
     <a class="active" href="gallery.html">Gallery</a>
     <a href="reviews.html">Reviews</a>
+    <a href="pizza.html">Order a Pizza</a>
   </div>
   <!--- Top Navigation Bar -->
 
@@ -44,7 +34,7 @@
   <p><picture>
     <source media="(min-width: 480px)"
     srcset="images/bread-800.jpg 800w, images/bread-1200.jpg 1200w" sizes="80vw">
-    <img src="images/bread-400.jpg"  alt="sliced rustic bread">
+    <img class="lgfoodimages" src="images/bread-400.jpg"  alt="sliced rustic bread">
   </picture><br>
     We start our day at the crack of dawn to bake our own muffins, bread, and dinner rolls. Loaves not used that day are donated to the local food shelter. </p>
 
@@ -52,7 +42,7 @@
   <p><picture>
     <source media="(min-width: 480px)"
     srcset="images/burgers-800.jpg 800w, images/burgers-1200.jpg 1200w" sizes="80vw">
-    <img src="images/burgers-400.jpg" alt="juicy burgers on a cutting board">
+    <img class="lgfoodimages" src="images/burgers-400.jpg" alt="juicy burgers on a cutting board">
     </picture><br>
     People come from all over to enjoy our lovingly made burgers. We grind our own locally-sourced organic beef and turkey so you know it's fresh and free from fillers and other nonsense. Go for one of our creative topping combos or stick with the classics. </p>
 
@@ -60,23 +50,25 @@
   <p><picture>
     <source media="(min-width: 480px)"
     srcset="images/fish-800.jpg 800w, images/fish-1200.jpg 1200w" sizes="80vw">
-    <img src="images/fish-400.jpg" alt="baked fish with potatoes and cherry tomatoes">
+    <img class="lgfoodimages" src="images/fish-400.jpg" alt="baked fish with potatoes and cherry tomatoes">
   </picture><br>
   Our chef works with local fisherman to pick the freshest the sea has to offer for our daily seafood special. Our Roast Cod Caponata with Roasted Potatoes is an old favorite with our regulars.</p>
 
 
 
 
- <footer>
- <div id="about">
-   <h2>Location and Hours</h2>
-   <p>Seekonk, Massachusetts; <br>
-   Monday through Thursday, 11am to 9pm;<br>
-   Friday & Saturday, 11am to midnight.</p>
- </div>
-
-   <p><small>All content copyright &copy; 2017, Black Goose Bistro and Jennifer Robbins</small></p>
- </footer>
+  <footer>
+    <div id="about">
+      <h2>Location and Hours</h2>
+      <p>Seekonk, Massachusetts; <br>
+       <strong>Monday - Thursday: </strong> 11am to 9pm;<br>
+       <strong>Friday & Saturday: </strong> 11am to midnight.</p>
+    </div>
+  <br>
+    <p> Please visit our Social Media pages</p>
+    <p><img src="icons/twitter.svg" alt="twitter"><img src="icons/facebook.svg" alt="facebook"><img src="icons/instagram.svg" alt="instagram"></p>
+    <p><small>All content copyright &copy; 2017, Black Goose Bistro and Jennifer Robbins</small></p>
+  </footer>
 
 </body>
 </html>
