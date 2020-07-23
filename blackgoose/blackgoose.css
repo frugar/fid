@@ -6,7 +6,7 @@ html {
 }
 
 .hero-image {
-  background-image: url("images/restaurant-dark.jpg"); /* The image used */
+  background-image: url("images/restaurant-dark-72.jpg"); /* The image used */
   background-color: #dedcd6; /* Used if the image is unavailable */
   height: 350px; /* You must set a specified height */
   background-position: center; /* Center the image */
