@@ -4,6 +4,15 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.quoted {
+  color: #292929;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #ffffff;
+  opacity: 0.65;
+}
 
 .hero-image {
   background-image: url("images/restaurant-dark-72.jpg"); /* The image used */
